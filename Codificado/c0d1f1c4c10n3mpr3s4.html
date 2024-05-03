@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador y Decodificador</title>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    color: #042c04;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #294b12;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.image-background {
+    background-image: url('img/Diseño.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 50px; /* Ajusta la distancia desde la parte superior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    opacity: 0.5;
+    z-index: -1; /* Cambiado a -1 para estar detrás del contenido */
+    width: 100%; /* Ajustado el ancho para cubrir toda la página */
+    height: 100%; /* Ajustado la altura para cubrir toda la página */
+}
+
+
+
+
+  </style>
+</head>
+<body>
+    <div class="image-background"></div>
+  <div class="container">
+    <h1>Codificador y Decodificador</h1>
+
+    <div class="section">
+      <h2>Codificar:</h2>
+      <input type="text" id="inputData" placeholder="Ingresa tu dato">
+      <button onclick="codificar()">Codificar</button>
+      <p id="hashedData"></p>
+    </div>
+    
+    <div class="section">
+      <h2>Descifrar:</h2>
+      <input type="text" id="inputHashedData" placeholder="Ingresa el código codificado">
+      <button onclick="descifrar()">Descifrar</button>
+      <p id="originalData"></p>
+    </div>
+  </div>
+
+  <script src="c0d1f1c4c10n3mpr3s4.js"></script>
+</body>
+</html>
