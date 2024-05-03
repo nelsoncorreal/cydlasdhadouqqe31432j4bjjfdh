@@ -55,13 +55,13 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
-    top: 50px; /* Ajusta la distancia desde la parte superior */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%); /* Centra horizontalmente */
+    top: 50px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     opacity: 0.5;
-    z-index: -1; /* Cambiado a -1 para estar detrás del contenido */
-    width: 100%; /* Ajustado el ancho para cubrir toda la página */
-    height: 100%; /* Ajustado la altura para cubrir toda la página */
+    z-index: -1; 
+    width: 100%; 
+    height: 100%; 
 }
 
 
@@ -76,14 +76,14 @@ button:hover {
 
     <div class="section">
       <h2>Codificar:</h2>
-      <input type="text" id="inputData" placeholder="Ingresa tu dato">
+      <input type="text" id="inputData" placeholder="Ingresa contraseña">
       <button onclick="codificar()">Codificar</button>
       <p id="hashedData"></p>
     </div>
     
     <div class="section">
       <h2>Descifrar:</h2>
-      <input type="text" id="inputHashedData" placeholder="Ingresa el código codificado">
+      <input type="text" id="inputHashedData" placeholder="Ingresa contraseña codificada">
       <button onclick="descifrar()">Descifrar</button>
       <p id="originalData"></p>
     </div>
